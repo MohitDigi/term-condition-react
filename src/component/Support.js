@@ -4,6 +4,7 @@ const Support = () => {
   return (
     <>
       <div className="policy-container">
+      <h1 className="policy-title">SUPPORT</h1>
         <h1 className="policy-heading">Support</h1>
         <div className="policy-text">
           "Playdates was created to bring people together in real life for

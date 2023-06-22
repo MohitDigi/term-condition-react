@@ -4,6 +4,7 @@ const TermsOfService = () => {
   return (
     <>
       <div class="policy-container">
+      <h1 className="policy-title">TERMS OF SERVICES</h1>
         <h2 class="policy-heading">Playdates Terms and Conditions of Use</h2>
         <p class="Policy-text">
           Welcome to Playdates’s Terms and Conditions of Use (these “Terms”).
