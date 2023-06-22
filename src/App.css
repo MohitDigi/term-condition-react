@@ -1,4 +1,56 @@
 *{
  margin: 0;
  padding: 0;
+
+}
+/* :root{
+    --policy-container-color:
+    --Policy-text-color:
+    --policy-bold-heading-color:
+    --policy-heading-color:
+    --policy-subheading:
+} */
+body{
+    background: #9AA3CB;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    line-height: 1.8;
+}
+/* Element customization */
+ul{
+    background-color: rgba(228, 217, 243, 0.3);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+li{
+    margin-left: 2rem ;
+    color:rgb(104, 104, 104);
+    list-style: url("./icon/icons8-done.svg");
+}
+a{
+    color: #202a6f;
+    text-decoration: none;
+}
+
+/* Classes customization */
+.policy-container{
+    background-color:mintcream;
+    border-radius: 20px;
+    padding: 1.2rem;
+    margin: 1.2rem 0;    
+}
+.policy-heading{
+    color: #4E4A9E;
+    text-align: center;
+}
+.Policy-text{
+    color:rgb(66, 66, 66);
+}
+.policy-bold-heading{
+ color: #202a6f;
+}
+.policy-subheading{
+    color:#111C3D;
 }

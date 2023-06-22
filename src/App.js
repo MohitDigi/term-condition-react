@@ -1,13 +1,16 @@
 import { Routes ,  Route } from "react-router-dom";
 import PrivacyPolicy from "./component/PrivacyPolicy";
 import TermsOfService from "./component/TermsOfService";
+import Support from "./component/Support";
+import './App.css'
 
 function App() {
   return (
     <>    
       <Routes>
         <Route path="/" element={<PrivacyPolicy/>} />
-        <Route path="/" element={<TermsOfService/>} />     
+        <Route path="/terms" element={<TermsOfService/>} />     
+        <Route path="/support" element={<Support/>} />     
       </Routes>
     </>
   );

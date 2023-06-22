@@ -1,9 +1,8 @@
 import React from "react";
-
 const PrivacyPolicy = () => {
   return (
     <>
-      <div className="policy-container">
+       <div className="policy-container">
         <h2 className="policy-heading">OUR COMMITMENT TO YOU</h2>
         <p className="Policy-text">
           At Playdates, your privacy is a top priority. We appreciate that you
@@ -25,22 +24,22 @@ const PrivacyPolicy = () => {
           This Privacy Policy applies beginning 3/1/2022.
         </h3>
         <ul>
-          <li>WHO WE ARE</li>
-          <li>WHERE THIS PRIVACY POLICY APPLIES</li>
-          <li>INFORMATION WE COLLECT</li>
-          <li>COOKIES AND OTHER SIMILAR DATA COLLECTION TECHNOLOGIES</li>
-          <li>HOW WE USE INFORMATION</li>
-          <li>HOW WE SHARE INFORMATION</li>
-          <li>CROSS-BORDER DATA TRANSFERS</li>
-          <li>YOUR RIGHTS</li>
-          <li>RESIDENTS OF CALIFORNIA</li>
-          <li>HOW WE PROTECT YOUR INFORMATION</li>
-          <li>HOW LONG WE RETAIN YOUR INFORMATION</li>
-          <li>CHILDREN’S PRIVACY</li>
-          <li>PRIVACY POLICY CHANGES</li>
-          <li>HOW TO CONTACT US</li>
+          <li><a href="#1">WHO WE ARE</a></li>
+          <li><a href="#2">WHERE THIS PRIVACY POLICY APPLIES</a></li>
+          <li><a href="#3">INFORMATION WE COLLECT</a></li>
+          <li><a href="#4">COOKIES AND OTHER SIMILAR DATA COLLECTION TECHNOLOGIES</a></li>
+          <li><a href="#5">HOW WE USE INFORMATION</a></li>
+          <li><a href="#6">HOW WE SHARE INFORMATION</a></li>
+          <li><a href="#7">CROSS-BORDER DATA TRANSFERS</a></li>
+          <li><a href="#8">YOUR RIGHTS</a></li>
+          <li><a href="#9">RESIDENTS OF CALIFORNIA</a></li>
+          <li><a href="#10">HOW WE PROTECT YOUR INFORMATION</a></li>
+          <li><a href="#11">HOW LONG WE RETAIN YOUR INFORMATION</a></li>
+          <li><a href="#12">CHILDREN’S PRIVACY</a></li>
+          <li><a href="#13">PRIVACY POLICY CHANGES</a></li>
+          <li><a href="#14">HOW TO CONTACT US</a></li>
         </ul>
-        <h2 className="policy-heading">1. WHO WE ARE</h2>
+        <h2 className="policy-heading" id="1">1. WHO WE ARE</h2>
         <p className="Policy-text">
           If you live in the European Union, the company that is responsible for
           your information under this Privacy Policy (the “data controller”) is:
@@ -49,7 +48,7 @@ const PrivacyPolicy = () => {
           {" "}
           David Lee <br /> 3336 San Leandro Street <br /> Oakland, CA 94602{" "}
         </p>
-        <h2 className="policy-heading">2. WHERE THIS PRIVACY POLICY APPLIES</h2>
+        <h2 className="policy-heading" id="2" >2. WHERE THIS PRIVACY POLICY APPLIES</h2>
         <p className="Policy-text">
           This Privacy Policy applies to websites, apps, events and other
           services operated by Playdates. For simplicity, we refer to all of
@@ -63,7 +62,7 @@ const PrivacyPolicy = () => {
           particular service has its own privacy policy, then that policy -- not
           this Privacy Policy -- applies.
         </p>
-        <h2 className="policy-heading">3. INFORMATION WE COLLECT</h2>
+        <h2 className="policy-heading" id="3">3. INFORMATION WE COLLECT</h2>
         <p className="Policy-text">
           We also collect information generated as you use our services, for
           example access logs, as well as information from third parties, like
@@ -120,9 +119,7 @@ const PrivacyPolicy = () => {
             the content you publish, as part of the operation of the services.
           </li>
         </ul>
-        <h3 className="policy-subheading">
-          Information we receive from others
-        </h3>
+        <h3 className="policy-subheading">Information we receive from others</h3>
         <p className="Policy-text">
           In addition to the information you provide us directly, we receive
           information about you from others, including:
@@ -202,7 +199,7 @@ const PrivacyPolicy = () => {
           instance, if you want to publish a photo, video or streaming on the
           services).
         </p>
-        <h3 className="policy-heading">
+        <h3 className="policy-heading" id="4">
           4. COOKIES AND OTHER SIMILAR DATA COLLECTION TECHNOLOGIES
         </h3>
         <p className="Policy-text">
@@ -226,7 +223,7 @@ const PrivacyPolicy = () => {
           signals are not yet uniform. For this reason, many businesses,
           including Playdates, do not currently respond to DNT signals.{" "}
         </p>
-        <h3 className="policy-heading">5. HOW WE USE INFORMATION</h3>
+        <h3 className="policy-heading" id="5">5. HOW WE USE INFORMATION</h3>
         <p className="Policy-text">
           The main reason we use your information is to deliver and improve our
           services. Additionally, we use your info to help keep you safe and to
@@ -276,9 +273,7 @@ const PrivacyPolicy = () => {
             about products or services that we think may interest you{" "}
           </li>
         </ul>
-        <p className="Policy-text">
-          To improve our services and develop new ones
-        </p>
+        <p className="Policy-text">To improve our services and develop new ones</p>
         <ul>
           <li>Administer focus groups and surveys</li>
           <li>
@@ -342,7 +337,7 @@ const PrivacyPolicy = () => {
             end of this Privacy Policy.{" "}
           </li>
         </ul>
-        <h2 className="policy-heading">6. HOW WE SHARE INFORMATION</h2>
+        <h2 className="policy-heading" id="6">6. HOW WE SHARE INFORMATION</h2>
         <p className="Policy-text">
           Since our goal is to help you experience fun interactions, the main
           sharing of users’ information is, of course, with other people, as per
@@ -352,9 +347,9 @@ const PrivacyPolicy = () => {
           details about how your information is shared with others.
         </p>
         <p className="Policy-text">
-          <span className="policy-bold-heading"> With other people.</span> We
-          share your information with other people as per your privacy settings
-          (and in the case of any sharing features available on Playdates, the
+          <span className="policy-bold-heading"> With other people.</span> We share
+          your information with other people as per your privacy settings (and
+          in the case of any sharing features available on Playdates, the
           individuals or apps with whom you may choose to share your information
           with) when you voluntarily disclose information on the service
           (including your public profile). Please be careful with your
@@ -436,7 +431,7 @@ const PrivacyPolicy = () => {
           sources. More information on our use of cookies and similar
           technologies can be found in our Cookie Policy.{" "}
         </p>
-        <h2 className="policy-heading">7. CROSS-BORDER DATA TRANSFERS</h2>
+        <h2 className="policy-heading" id="7">7. CROSS-BORDER DATA TRANSFERS</h2>
         <p className="Policy-text">
           Sharing of information laid out in Section 6 sometimes involves
           cross-border data transfers, for instance to the United States of
@@ -449,7 +444,7 @@ const PrivacyPolicy = () => {
           commitments between companies transferring personal data, binding them
           to protect the privacy and security of your data.{" "}
         </p>
-        <h2 className="policy-heading">8. YOUR RIGHTS</h2>
+        <h2 className="policy-heading" id="8">8. YOUR RIGHTS</h2>
         <p className="Policy-text">
           We want you to be in control of your information, so we have provided
           you with the following tools:
@@ -535,7 +530,7 @@ const PrivacyPolicy = () => {
             residence, where you work or where we are established.{" "}
           </li>
         </ul>
-        <h2 className="policy-heading">9. RESIDENTS OF CALIFORNIA</h2>
+        <h2 className="policy-heading" id="9">9. RESIDENTS OF CALIFORNIA</h2>
         <p className="Policy-text">
           For Users who are California residents, you have the following rights
           (in addition to those listed at section 10 below) under the California
@@ -587,7 +582,7 @@ const PrivacyPolicy = () => {
           information about an individual User’s online activities over time and
           across different online services when using the App.
         </p>
-        <h2 className="policy-heading">10. HOW WE PROTECT YOUR INFORMATION</h2>
+        <h2 className="policy-heading" id="10">10. HOW WE PROTECT YOUR INFORMATION</h2>
         <p className="Policy-text">
           We work hard to protect you from unauthorized access to or alteration,
           disclosure or destruction of your personal information. As with all
@@ -608,9 +603,7 @@ const PrivacyPolicy = () => {
           your account or information is no longer secure, please notify us
           immediately.
         </p>
-        <h2 className="policy-heading">
-          11. HOW LONG WE RETAIN YOUR INFORMATION
-        </h2>
+        <h2 className="policy-heading" id="11">11. HOW LONG WE RETAIN YOUR INFORMATION</h2>
         <p className="Policy-text">
           We keep your personal information only as long as we need it for
           legitimate business purposes (as laid out in Section 5 and as
@@ -644,7 +637,7 @@ const PrivacyPolicy = () => {
           promise that all data will be deleted within a specific timeframe due
           to technical constraints.
         </p>
-        <h2 className="policy-heading">12. CHILDREN’S PRIVACY</h2>
+        <h2 className="policy-heading" id="12">12. CHILDREN’S PRIVACY</h2>
         <p className="Policy-text">
           Our services are restricted to users who are 18 years of age or older.
           We do not permit users under the age of 18 on our platform and we do
@@ -652,14 +645,14 @@ const PrivacyPolicy = () => {
           of 18. If you suspect that a user is under the age of 18, please use
           the reporting mechanism available through the service.
         </p>
-        <h2 className="policy-heading">13. PRIVACY POLICY CHANGES</h2>
+        <h2 className="policy-heading" id="13">13. PRIVACY POLICY CHANGES</h2>
         <p className="Policy-text">
           Because we’re always looking for new and innovative ways to help you
           build meaningful connections, this policy may change over time. We
           will notify you before any material changes take effect so that you
           have time to review the changes.
         </p>
-        <h2 className="policy-heading">14. HOW TO CONTACT US</h2>
+        <h2 className="policy-heading" id="14">14. HOW TO CONTACT US</h2>
         <p className="Policy-text">
           If you have questions about this Privacy Policy, here’s how you can
           reach us: If you live in the{" "}
